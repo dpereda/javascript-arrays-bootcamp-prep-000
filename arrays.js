@@ -9,4 +9,4 @@ function destructivelyAddElementToBeginningOfArray(arrayIt,element){
   console.log(arrayIt)
   return arrayIt
 }
-destructivelyAddElementToBeginningOfArray("Hello")
+destructivelyAddElementToBeginningOfArray(chocolateBars,"Hello")
