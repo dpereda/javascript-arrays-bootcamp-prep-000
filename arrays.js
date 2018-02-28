@@ -26,6 +26,9 @@ function destructivelyRemoveElementFromBeginningOfArray(arrayIt){
   arrayIt.shift()
   return arrayIt
 }
+function removeElementFromBeginningOfArray(array){
+ return array.slice(1) 
+}
 
 
 //destructivelyAddElementToBeginningOfArray(chocolateBars,"Hello")
