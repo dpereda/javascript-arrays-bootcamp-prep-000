@@ -36,5 +36,10 @@ function destructivelyRemoveElementFromEndOfArray(arrayIt){
   return arrayIt
 }
 
+function removeElementFromEndOfArray(array){
+  return array.slice(0, array.length -1)
+  
+}
+
 
 //destructivelyAddElementToBeginningOfArray(chocolateBars,"Hello")
