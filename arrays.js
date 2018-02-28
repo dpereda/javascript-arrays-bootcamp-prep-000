@@ -22,5 +22,10 @@ function accessElementInArray(array,index){
   return array[index]
 }
 
+function destructivelyAddElementToBeginningOfArray(arrayIt,element){
+  arrayIt.unshift(element)
+  return arrayIt
+}
 
-destructivelyAddElementToBeginningOfArray(chocolateBars,"Hello")
+
+//destructivelyAddElementToBeginningOfArray(chocolateBars,"Hello")
