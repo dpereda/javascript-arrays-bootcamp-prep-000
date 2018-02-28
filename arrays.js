@@ -22,8 +22,8 @@ function accessElementInArray(array,index){
   return array[index]
 }
 
-function destructivelyAddElementToBeginningOfArray(arrayIt,element){
-  arrayIt.unshift(element)
+function destructivelyRemoveElementFromBeginningOfArray(arrayIt){
+  arrayIt.unshift
   return arrayIt
 }
 
