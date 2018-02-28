@@ -18,4 +18,11 @@ function destructivelyAddElementToEndOfArray(arrayIt,element){
   return arrayIt
 }
 
+function addElementToEndOfArray(array,element){
+  return [...array, element]
+}
+function addElementToEndOfArray(array,element){
+  return [...array, element]
+}
+
 destructivelyAddElementToBeginningOfArray(chocolateBars,"Hello")
